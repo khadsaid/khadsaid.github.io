@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+background-color: red;
+top: 0;
+justify-content: center;
+align-items: center;
+position: sticky;
+display: flex;
+
+
+
+}
+ul,li{
+list-style-type: none;
+display: flex;
+top: 0px;
+margin: 20px ;
+color: white;
+font-weight: bold;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: large;
+
+}
+img{
+    opacity: 0.2px;
+    float: left;
+    width: 100%; 
+    height: 400px; 
+    opacity: 0.7;
+}
+cont{
+    background-color: rgb(58, 5, 5);
+    float: right;
+    border-radius: 90px;
+    border-width: 1px solid black;
+}
+h1,h3{
+    position: absolute;
+    margin: 50px 50px;
+   
+}
+@keyframes mymove{
+    from{img: url(./watunapc.jpg);}
+    to{background-color:blue;}}
+.bt{
+    width:70px;
+    height: 20px;
+    float: left;
+    top: 60px;
+}
+@media (max-width: 700px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .nav{
+    background-color: red;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    display: flex;
+    
+    
+    
+    }
+
+     
+    ul,li{
+    list-style-type: none;
+    display: flex;
+    top: 0px;
+    margin: 20px ;
+    color: rgb(26, 118, 194);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    text-decoration: none;
+    
+    }
+    img{
+        opacity: 0.2px;
+        float: left;
+        width: 100%; 
+        height: 1000px; 
+        opacity: 0.7;
+    }
+    cont{
+        background-color: rgb(58, 5, 5);
+        float: right;
+        border-radius: 90px;
+        border-width: 1px solid black;
+    }
+    h1,h3{
+        position: absolute;
+        margin: 50px 50px;
+    }
+    .bt{
+        width:70px;
+        height: 20px;
+        float: left;
+        top: 60px;
+    }   
+    .img{
+        width: 100%;
+        height: 2000px;
+    }
+}

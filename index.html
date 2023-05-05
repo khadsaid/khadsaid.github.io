@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="web1.css" type="text/css">
+
+    <style>
+      a ,li{
+        text-decoration: none;
+    }
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+img{
+    width: 100%;
+    height: 500px;
+    
+}
+.slideshow-container{
+    align-content: center;
+    border-right-width: 70%;
+}
+    </style>
+</head>
+<body>
+ <nav class="nav"  >
+   <ul>
+    <a href="cv.html"><li>my Detail</li></a>
+    <a href="workingexp.html"><li>skills and experience </li></a>
+    <a href="about.html"><li>contct us</li></a>
+    <a href="login.html"><li>login</li></a>
+</ul>
+   
+    
+ </nav>
+ <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides">
+
+    <img src="./IMG-20220918-WA0006.jpg">
+
+  </div>
+  
+
+  <div class="mySlides">
+ 
+    <img src="./Screenshot_20230502_142929_Google.jpg">
+   
+  </div>
+
+  <div class="mySlides">
+  
+    <img src="./watunapc.jpg">
+    
+  </div>
+
+           
+             <h1><b style="color: rgb(1, 31, 1);">BE THE GOOD WITH YOUR WORK</b></h1><br><br><br><br><br>
+           <h1>SO YOU CAN BE EXPENSIVE</h1><br><br><br><br><br><br>
+           <h3><b style="color: white;">if you fail to plan you plan to fail</b></h3><br><br><br>
+        
+          
+          </div>      
+    </div> 
+    
+ </div>
+
+ 
+</body>
+<script >
+  let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+ </script>
+</html>

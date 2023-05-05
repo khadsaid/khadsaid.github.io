@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    
+    <style>
+        body{
+          background-image:url("Screenshot_20230504_135250_Google.jpg") ;
+          background-repeat: no-repeat;
+          background-size: cover;
+    
+         
+        }
+        .card{
+            border: 1px solid black;
+            background-color: rgb(103, 172, 231);
+            width: 40%;
+            height: 300px;
+            margin: 90px 200px;
+            padding-left: 50px;
+            top: 16px;
+            box-sizing:content-box;
+           border-radius: 20px;
+           box-shadow: 0 0 20px black;
+           background-image: url("./Screenshot_20230504_135237_Google.jpg");
+        }
+    </style>
+</head>
+<body>
+    <form id="form" >
+
+        <div class="card mt-3 container w-70 h-30">
+           <div class="card-header" style="color: rgb(245, 24, 42); text-align: center; tex"><B>LOGIN FORM</B></div>
+        <div class="form1" >
+          <label >Email address</label><br>
+          <input   type="email" id="email"  name="email" required>
+        
+        </div>
+      
+        <div class="form2" style="color: red;">
+          <label ><b>Password</b></label><br>
+          <input type="password" id="password" required><br><br>
+          
+        </div>
+         <button type="submit" onclick="login()">login</button>
+ 
+        </div>
+   
+
+      </form>
+      <script src="login.js"></script>
+
+    
+</body>
+</html>
